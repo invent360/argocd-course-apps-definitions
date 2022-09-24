@@ -12,6 +12,3 @@ spec:
     path: guestbook
     repoURL: "https://github.com/mabusaa/argocd-example-apps.git"
     targetRevision: master
-  syncPolicy:
-    syncOptions:
-      - CreateNamespace=true
